@@ -1,0 +1,85 @@
+GET http://localhost:3000/auth/test
+Authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZpa2VyYiIsImlhdCI6MTY3Njg2NDg2MSwiZXhwIjoxNjc2ODY4NDYxfQ.-RrXrZwOVATMWfOen8QH62zyYSfZgSedKvQQXELRPLo"
+
+
+# POST http://localhost:3000/auth/signup
+# Content-Type: application/json
+
+# {
+#     "username": "fikerb",
+#     "password": "Ab!2345678",
+#     "pharmacyId": 1,
+#     "role": "generic",
+#     "name": "Fikernew"
+# }
+
+# POST http://localhost:3000/auth/signin
+# Content-Type: application/json
+
+# {
+#     "username": "fikerb",
+#     "password": "Ab!2345678",
+#     "pharmacyId": 1
+# }
+
+# POST http://localhost:3000/administrators/test
+# Authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZmZWtpcm5ldyIsImlhdCI6MTY3NjQ5NzIwMSwiZXhwIjoxNjc2NTAwODAxfQ.lHrUeasPZ4FlqGZhxCK_vB_WU3eoL2jEtT48KmhOCtA"
+
+
+# GET http://localhost:3000/employees
+# Authorization: " Bearer https://jwt.io/#debugger-io?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZmZWtpcm5ldzkiLCJwaGFybWFjeSI6IkFCQyIsInJvbGUiOiJFbXBsb3llZSIsImlhdCI6MTY3NjgzNjA5NSwiZXhwIjoxNjc2ODM5Njk1fQ.JkmjsgEN-pCe7d9ybE0dX-An6AYztrf3JBhHiYxbe9c"
+
+# POST http://localhost:3000/employees/signin
+# Content-Type: application/json
+
+# {
+#     "username": "ffekirnew9",
+#     "password": "Ab!123456",
+#     "pharmacyId": 1
+# }
+
+
+# POST http://localhost:3000/employees/signup
+# Content-Type: application/json
+
+# {
+#     "username": "ffekirnew9",
+#     "name": "Fikernew",
+#     "password": "Ab!123456",
+#     "pharmacyId": 1,
+#     "employeeType": ""
+# }
+
+# POST http://localhost:3000/pharmacies/
+# Content-Type: application/json
+
+# {
+#     "pharmacyName": "pharmacy-1",
+#     "pharmaTinNo":1,
+#     "branchNum":1,
+#     "latitude": 100,
+#     "longitude": 150
+# }
+
+# GET http://localhost:3000/employees
+# Authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZmZWtpciIsInBoYXJtYWN5IjoiQUJDIiwicm9sZSI6Ik93bmVyIiwiaWF0IjoxNjc2NzY0MjIzLCJleHAiOjE2NzY3Njc4MjN9.VwxJD3Jr0hF1cZC--CfPCt5AfvkYYsfEg4N3gxFm8aM"
+
+# POST http://localhost:3000/employees/signup
+# Content-Type: application/json
+
+# {
+#     "username": "ffekirnew",
+#     "password": "Ab!23456",
+#     "role": "Employee",
+#     "name": "Fikernew",
+#     "pharmacy": 21
+# }
+
+# POST http://localhost:3000/employees/signin
+# Content-Type: application/json
+
+# {
+#     "username": "ffekir",
+#     "password": "Ab!23456",
+#     "pharmacyId": 1
+# }
